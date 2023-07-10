@@ -1,3 +1,17 @@
+/* commonly shared styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Lato', sans-serif;
+}
+
+/* banner related style */
+
+.banner{
+    display: flex;
+    background-color: #FDEEF1;
 }
