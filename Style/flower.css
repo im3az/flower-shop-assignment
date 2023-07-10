@@ -19,6 +19,22 @@ body {
     border: none;
 }
 
+.section-title {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    text-align: center;
+    margin-bottom: 48px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
 /* banner related style */
 
 .banner {
@@ -51,4 +67,18 @@ body {
     text-align: left;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/* main section style */
+
+.featured-flower {
+    margin-top: 178px;
+}
+
+.featured-flower-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 240px;
+    margin-right: 240px;
 }
