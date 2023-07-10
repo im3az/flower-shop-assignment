@@ -75,10 +75,35 @@ body {
     margin-top: 178px;
 }
 
-.featured-flower-img{
+.featured-flower-img {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 240px;
     margin-right: 240px;
 }
+
+.pink-flower {
+    background-color: #F1DEE8;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    margin-right: 25px;
+}
+
+.bouquet {
+    background-color: #DBF0F1 ;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    margin-right: 25px;
+} 
+
+.yellow-flower {
+    background-color: #E4ECDB;
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    margin-right: 25px;
+}
+
