@@ -1,17 +1,38 @@
 /* commonly shared styles */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
 
 /* banner related style */
 
-.banner{
+.banner {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #FDEEF1;
+    padding: 50px 240px 0px 240px;
+}
+
+.banner-content {
+    max-width: 700px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
