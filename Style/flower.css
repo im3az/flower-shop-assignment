@@ -349,12 +349,11 @@ body {
 /* Free shipping styles */
 
 .free-shipping {
-    background-image: url('../Flower Asset/anotherfree1.png');
+    background-image: url('../Flower Asset/pexel2.jpg');
     background-repeat: no-repeat;
     height: 346px;
     margin-top: 90px;
     margin-left: 240px;
-    /* background-color: linear-gradient(to right, #E55473, #FDEEF1); */
     position: relative;
 }
 
@@ -367,7 +366,7 @@ body {
     line-height: normal;
     letter-spacing: 0.3px;
     top: 58px;
-    left: 410px;
+    left: 380px;
 
 }
 
@@ -380,7 +379,7 @@ body {
     line-height: normal;
     letter-spacing: 0.3px;
     top: 115px;
-    left: 410px;
+    left: 380px;
 
 }
 
@@ -392,7 +391,7 @@ body {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.3px;
-    left: 410px;
+    left: 380px;
     top: 145px;
 
 }
@@ -406,7 +405,7 @@ body {
     line-height: normal;
     letter-spacing: 0.3px;
     top: 170px;
-    left: 410px;
+    left: 380px;
 }
 
 .free-shipping .fa-solid {
