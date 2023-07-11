@@ -30,9 +30,43 @@ body {
 .section-description {
     text-align: center;
     margin-bottom: 48px;
-    color:#7C7677;
+    color: #7C7677;
     font-size: 18px;
     font-weight: 400;
+}
+
+/* Navigation related style */
+
+.flower-shop-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e9c6cd;
+    height: 100px;
+    position: relative;
+}
+
+.nav-title{
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    font-weight: 800;
+    font-size: 32px;
+
+}
+
+.flower-shop-nav ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 30;
+    right: 270px;
+}
+
+.flower-shop-nav ul li{
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 22px;
 }
 
 /* banner related style */
@@ -333,7 +367,7 @@ body {
 
 .footer-description {
     position: absolute;
-    color: #E7E7E7 ;
+    color: #E7E7E7;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -342,7 +376,7 @@ body {
     left: 648px;
 }
 
-.footer-ending{
+.footer-ending {
     position: absolute;
     color: #707070;
     top: 302px;
