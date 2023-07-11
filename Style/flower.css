@@ -92,12 +92,12 @@ body {
 }
 
 .bouquet {
-    background-color: #DBF0F1 ;
+    background-color: #DBF0F1;
     border-radius: 300px 300px 0px 0px;
     width: 464px;
     height: 538px;
     margin-right: 25px;
-} 
+}
 
 .yellow-flower {
     background-color: #E4ECDB;
@@ -107,3 +107,86 @@ body {
     margin-right: 25px;
 }
 
+.featured-flower-img p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+
+.flower-delivery {
+    display: flex;
+    margin-top: 128px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    background-color: #F4F4F4;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.delivery-man {
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    top: 86px;
+    left: 317px;
+
+}
+
+.delivery-bouquet {
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    top: 86px;
+    left: 761px;
+}
+
+.delivery-service {
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    top: 86px;
+    right: 232px;
+}
+
+.delivery-man-description {
+    position: absolute;
+    top: 198px;
+    left: 175px;
+    color: #505050;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+
+}
+
+.delivery-bouquet-description {
+    position: absolute;
+    top: 198px;
+    left: 647px;
+    color: #505050;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.delivery-service-description {
+    position: absolute;
+    top: 198px;
+    right: 175px;
+    color: #505050;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+
+}
