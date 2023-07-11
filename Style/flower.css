@@ -246,3 +246,11 @@ body {
     top: 394px;
     left: 603px;
 }
+
+/* Instagram section style */
+
+.insta-img{
+    display: flex;
+    margin-top: 48px;
+    margin-left: 240px;
+}
