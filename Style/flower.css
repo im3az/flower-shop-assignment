@@ -46,7 +46,7 @@ body {
     position: relative;
 }
 
-.nav-title{
+.nav-title {
     position: absolute;
     top: 30px;
     left: 240px;
@@ -63,7 +63,7 @@ body {
     right: 270px;
 }
 
-.flower-shop-nav ul li{
+.flower-shop-nav ul li {
     margin-left: 50px;
     font-weight: 400;
     font-size: 22px;
@@ -344,6 +344,76 @@ body {
     font-weight: 700;
     line-height: normal;
     padding: 18px 31px;
+}
+
+/* Free shipping styles */
+
+.free-shipping {
+    background-image: url('../Flower Asset/anotherfree1.png');
+    background-repeat: no-repeat;
+    height: 346px;
+    margin-top: 90px;
+    margin-left: 240px;
+    /* background-color: linear-gradient(to right, #E55473, #FDEEF1); */
+    position: relative;
+}
+
+.free-shipping-title {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    top: 58px;
+    left: 533px;
+
+}
+
+.free-shipping-description {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    top: 115px;
+    left: 533px;
+
+}
+
+.free-shipping .call {
+    position: absolute;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    left: 533px;
+    top: 145px;
+
+}
+
+.free-shipping .email {
+    position: absolute;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    top: 170px;
+    left: 533px;
+}
+
+.free-shipping .fa-solid {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+
 }
 
 /* Footer styles */
