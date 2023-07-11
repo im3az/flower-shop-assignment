@@ -249,8 +249,63 @@ body {
 
 /* Instagram section style */
 
-.insta-img{
+.insta-img {
     display: flex;
     margin-top: 48px;
     margin-left: 240px;
+}
+
+/* Latest deal section style */
+
+.latest-deal {
+    margin-top: 128px;
+    margin-left: 240px;
+    width: 1440px;
+    height: 449px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    position: relative;
+}
+
+.latest-deal .section-title {
+    position: absolute;
+    top: 122px;
+    bottom: 279px;
+    left: 533px;
+
+}
+
+.latest-deal .section-description {
+    position: absolute;
+    top: 186px;
+    left: 604px;
+    bottom: 233px;
+}
+
+.latest-deal input {
+    position: absolute;
+    border-radius: 8px;
+    background: #FFF;
+    top: 264px;
+    left: 287px;
+    border: none;
+    color: #7D7D7D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 23px 513px 22px 22px;
+    margin-right: 16px;
+}
+
+.latest-deal button {
+    position: absolute;
+    top: 264px;
+    left: 1003px;
+    margin-left: 25px;
+    width: 150px;
+    height: 64px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 18px 31px;
 }
